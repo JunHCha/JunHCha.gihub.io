@@ -1,0 +1,41 @@
+.header {
+  margin-top: 1rem;
+}
+
+.top-header {
+  height: 8rem;
+  background-color: #f4f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.top-header-text {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 8rem;
+}
+
+.nav-bar {
+  padding: 1rem 0 0 6rem;
+  height: 4rem;
+  background-color: #a4ebf3;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 1rem;
+}
+
+.home,
+.members {
+  margin: 0 1.5rem;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 4rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.home:hover,
+.members:hover {
+  background-color: #f4f9f9;
+}
